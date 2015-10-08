@@ -1,0 +1,117 @@
+@charset "utf-8";
+/*****************************
+Colours
+main background: #222;
+content background:#444;
+footer background: #333;
+borders on header and main: #666;
+main text: #d4d4d4;
+header text: #eee;
+footer text: #999;
+anchor text: gold;
+anchor hover: #fff;
+text shadows - #000 (bottom right) and gold (top left)
+
+Fonts
+'Helvetica Neue', Calibri, Verdana, sans-serif;
+
+Images
+http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg
+******************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    width:80%;
+    font-size: 3vh; /* default font-size = 1.0rem */
+    background-color: #222;
+   /* font-family: 'Helvetica neue', Calibri, verdana, sans-serif; */
+    margin-left: 100px;
+    
+}
+h1{
+    color:whitesmoke;
+   text-align:center;
+    height: 250px;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-image: url(http://griffis.edumedia.ca/mad9013/html-only/saturn.v1.jpg);
+    padding-top: 60px;
+    font-size: 11vh;
+    text-shadow: 2px 3px gold;
+    font-family:calibri;
+    padding-right:20px;
+    background-color: black;
+   
+    
+}
+h3{;
+   text-align: left;
+    font-family:calibri;
+    font-size: 40px;
+    padding-bottom: 60px;
+}
+p{
+text-align:  left;
+    display: block;
+    font-family:calibri;
+    padding-bottom: 40px;
+    
+}
+nav a, nav a:link, nav a:visited{
+    text-align: center;
+text-decoration: none;
+    color:gold;
+    font-family:Hevetica neue, calibri, Verdana, sans-serif;
+
+}
+a:hover, a:active nav{
+color:fff;
+}
+
+nav ul{
+text-align:center;
+border-top: 10px solid grey;
+border-bottom: 15px solid grey;
+ padding: 10px 10px;
+
+}
+nav li{
+display: inline;
+font-family:helvetica neue, sans-serif;
+font-size:32px;
+    margin: auto;
+    position:relative;
+    padding: 25px;
+
+}
+#wrapper{
+    
+background-color:#444
+}
+#masthead{
+
+}
+#main{
+color:#d4d4d4;
+font-family: 'Helvetica neue', calibri, verdana, sans-serif;
+line-height: 40px;
+text-align:justify;
+    margin: 50px;
+    width: 700px;
+/*    line-height: 40px;*/
+        
+        
+}
+#footer{
+background-color:#333
+}
+#footer p{
+color:#999;
+}
+#footer a{
+color:gold;
+}
